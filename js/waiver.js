@@ -1,6 +1,7 @@
 
 window.addEventListener("load", function (){
-    document.getElementsByTagName("figcaption")[0].tabIndex = 5
+    document.getElementsByTagName("figcaption")[0].tabIndex = 1
+    document.getElementsByClassName("jump")[0].tabIndex = -1
     var figures = document.getElementsByTagName("figure")
     for(var x = 0; x < figures.length; x++){
         figures[x].className = "one-third"
